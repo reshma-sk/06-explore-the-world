@@ -8,6 +8,7 @@
   "author": "reshma",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
