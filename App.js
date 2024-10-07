@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './src/components/Header'; 
 import Body from './src/components/Body';
+import { HashRouter as Router } from "react-router-dom";
 const App = ()=>{
     return(
         <div className='app'>
@@ -12,4 +13,4 @@ const App = ()=>{
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App/>)
+root.render(<Router><App/></Router>)
